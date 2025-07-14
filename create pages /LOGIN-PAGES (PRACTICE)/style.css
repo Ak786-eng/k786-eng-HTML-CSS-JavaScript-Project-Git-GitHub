@@ -1,0 +1,38 @@
+✅ Make sure body has no margin
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* ✅ Make video cover the whole screen */
+#myVideo {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This keeps aspect ratio and fills screen */
+  z-index: -1; /* Keep it behind the content */
+}
+
+/* ✅ Center your login form */
+.content {
+  position: relative; /* To stay above the video */
+  z-index: 1; 
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
+  margin: 20vh auto; /* Center vertically and horizontally */
+  background: rgba(255,255,255,0.8); /* Add background so it’s readable */
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/* ✅ Basic styling for inputs and button */
+.content input,
+.content button {
+  padding: 10px;
+  font-size: 16px;
+}
