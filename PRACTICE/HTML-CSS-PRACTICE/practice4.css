@@ -1,0 +1,40 @@
+footer{
+    display: block;
+    text-align:end;
+    border: 1px,solid,grey;
+    text-align: center;
+    position: fixed; bottom:0;
+    flex: 1;
+    
+}
+
+
+h1{
+    border: 5px,solid;
+    background-color: grey ;
+}
+
+
+
+
+content{
+    height: 100px;
+    width: 100px;
+    border: 1px,solid,black;
+
+}
+#d1{
+   background-color: rgba(0,0,0,0.5);
+}
+
+#d2{
+    background-color: rgba(10,10,10,0.1);
+
+}
+
+
+
+#d3{
+    background-color: rgba(247, 49, 49, 0.1);
+
+}
