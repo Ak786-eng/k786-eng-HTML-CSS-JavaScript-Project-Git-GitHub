@@ -1,0 +1,48 @@
+#DIV1{
+    border: 2px,solid,brown;
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    margin-left: 35px;
+
+    
+}
+
+
+
+
+#DIV2{
+    
+   border: 2px,solid,brown;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    margin-right: 25px;
+
+}
+
+
+
+
+
+#DIV3{
+    
+    border: 2px,solid,brown;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    margin-top: 45px;
+
+}
+
+
+
+
+#DIV4{
+     border: 2px,solid,brown;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    margin-bottom: 55px;
+
+}

@@ -1,0 +1,39 @@
+#traffic-light{
+    border: 5px solid red;
+    height: 300px;
+    width: 100px;
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+
+}
+
+#red{
+    background-color: red;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 10px auto;
+}
+
+
+#yellow{
+    background-color: yellow;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px auto;
+
+    
+}
+
+
+#green{
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px auto;
+    
+    
+}
